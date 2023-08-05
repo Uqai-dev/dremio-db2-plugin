@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ibm db2" uuid="b893b581-a82b-4c83-8ec6-c7ea8322e5b2">
+      <driver-ref>db2</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.ibm.db2.jcc.DB2Driver</jdbc-driver>
+      <jdbc-url>jdbc:db2://dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net:50000/BLUDB</jdbc-url>
+      <driver-properties>
+        <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
+        <property name="clientProgramName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="MPBASE@150.88.1.167" uuid="76a9d2ea-4713-4925-9dd0-0158b74488cb">
+      <driver-ref>db2</driver-ref>
+      <jdbc-driver>com.ibm.db2.jcc.DB2Driver</jdbc-driver>
+      <jdbc-url>jdbc:db2://150.88.1.167:50100/MPBASE</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Dremio - @10.161.68.63" uuid="a8e2e1db-5e44-4b46-b86b-d82d4c701e2d">
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dremio.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:dremio:direct=10.161.68.63:31010</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MPBASE@51.158.62.38" uuid="0cda06f8-d929-4510-b3a6-774953184c6c">
+      <driver-ref>db2.11</driver-ref>
+      <jdbc-driver>com.ibm.db2.jcc.DB2Driver</jdbc-driver>
+      <jdbc-url>jdbc:db2://51.158.62.38:50000/MPBASE</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

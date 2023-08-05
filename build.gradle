@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dremio.plugin'
+version '3.2'
+
+sourceCompatibility = 1.8
+
+ext {
+    versionDremio = "24.1.0-202306130653310132-d30779f6"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "http://maven.dremio.com/public/" }
+    maven { url "http://maven.dremio.com/free/" }
+}
+
+dependencies {
+    implementation "com.dremio.community.plugins:dremio-ce-jdbc-plugin:${versionDremio}"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -1,0 +1,25 @@
+{
+  "sourceType": "DB22",
+  "metadataRefresh": {
+    "datasetDiscovery": true
+  },
+  "form": {
+    "tabs": [
+      {
+        "name": "General",
+        "isGeneral": true,
+        "sections": [
+          {
+            "name": "Db2 Source",
+            "layout": "row",
+            "elements": [
+              {
+                "propName": "config.enableExternalQuery"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
