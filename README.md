@@ -18,6 +18,11 @@ In this repo ARP yml was fined to works well with latest version.
 - [x] support Dremio 24.1.0
 - [ ] Fix decimal precision when use CTA
 
+## How to build
+```bash
+./gradlew jar
+```
+
 ## Notes
 
 1. Conflicts with official Dremio IBM db2 plugin, official plugin must not be enabled while using this plugin
