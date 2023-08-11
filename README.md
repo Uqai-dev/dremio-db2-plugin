@@ -17,7 +17,7 @@ In this repo ARP yml was fined to works well with latest version.
 
 - [x] support Dremio 24.1.0
 - [ ] Fix decimal precision when use CTA
-
+- [ ] Fix `Operand 3 (0:DECIMAL(38, 2)) for operator CASE was not supported. Aborting pushdown.`
 ## How to build
 ```bash
 ./gradlew jar

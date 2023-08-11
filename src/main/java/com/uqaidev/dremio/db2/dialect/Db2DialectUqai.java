@@ -43,8 +43,4 @@ public class Db2DialectUqai extends ArpDialect {
         return false;
     }
 
-    @Override
-    public ContainerSupport supportsCatalogs() {
-        return super.supportsCatalogs();
-    }
 }
